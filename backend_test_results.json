@@ -1,0 +1,104 @@
+{
+  "total_tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "success_rate": 100.0,
+  "critical_passed": 4,
+  "overall_status": "PASS",
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "message": "Server is healthy, integrations_available: True",
+      "timestamp": "2025-07-20T04:56:53.614063",
+      "details": {
+        "status": "healthy",
+        "integrations_available": true
+      }
+    },
+    {
+      "test": "Personalities Fetch",
+      "success": true,
+      "message": "Found 4 personalities with correct structure",
+      "timestamp": "2025-07-20T04:56:53.623941",
+      "details": {
+        "personalities": [
+          "Assistant",
+          "Creative",
+          "Expert",
+          "Friend"
+        ]
+      }
+    },
+    {
+      "test": "New Session Creation",
+      "success": true,
+      "message": "Created session: e04ff3a7...",
+      "timestamp": "2025-07-20T04:56:53.634372",
+      "details": {
+        "session_id": "e04ff3a7-8860-41ce-b5b7-722751636ae6"
+      }
+    },
+    {
+      "test": "Chat - Assistant",
+      "success": true,
+      "message": "Received personality-appropriate response",
+      "timestamp": "2025-07-20T04:56:53.689366",
+      "details": {
+        "message_preview": "As your AI assistant, I understand you're asking about: 'Hello, how are you today?'. Let me provide ..."
+      }
+    },
+    {
+      "test": "Chat - Assistant",
+      "success": true,
+      "message": "Received personality-appropriate response",
+      "timestamp": "2025-07-20T04:56:53.739606",
+      "details": {
+        "message_preview": "As your AI assistant, I understand you're asking about: 'Can you help me with a creative writing pro..."
+      }
+    },
+    {
+      "test": "Chat - Creative",
+      "success": true,
+      "message": "Received personality-appropriate response",
+      "timestamp": "2025-07-20T04:56:53.750934",
+      "details": {
+        "message_preview": "What an inspiring question about 'Hello, how are you today?'! \ud83c\udfa8 Let me paint you a picture with word..."
+      }
+    },
+    {
+      "test": "Chat - Creative",
+      "success": true,
+      "message": "Received personality-appropriate response",
+      "timestamp": "2025-07-20T04:56:53.760342",
+      "details": {
+        "message_preview": "What an inspiring question about 'Can you help me with a creative writing project?'! \ud83c\udfa8 Let me paint ..."
+      }
+    },
+    {
+      "test": "Chat Functionality Overall",
+      "success": true,
+      "message": "Passed 4/4 chat tests",
+      "timestamp": "2025-07-20T04:56:53.760390",
+      "details": null
+    },
+    {
+      "test": "Voice Endpoint",
+      "success": true,
+      "message": "Voice message processed successfully",
+      "timestamp": "2025-07-20T04:56:53.810117",
+      "details": {
+        "response_preview": "As your AI assistant, I understand you're asking about: 'I received your voice message'. Let me prov..."
+      }
+    },
+    {
+      "test": "Conversation Retrieval",
+      "success": true,
+      "message": "Retrieved 10 messages from session",
+      "timestamp": "2025-07-20T04:56:53.819494",
+      "details": {
+        "message_count": 10
+      }
+    }
+  ]
+}
